@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 16px;
+}
+
+/*HEADER*/
+.header{
+    width: 100%;
+    height: 45vh;
+}
+.header__list{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    text-align: center;
+    margin: 1rem;
+}
+.header__item{
+    display: inline-block;
+    border-radius: 7%;
+    padding: 1rem 1rem;
+    margin: 3rem;
+    overflow: hidden;
+    background-color: rgb(29 60 120);
+}
+.header__anchor{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+/*HEADER FIN*/
+
+/*MAIN*/
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+    padding: 10rem;
+    position: relative;
+}
+.hero1{
+    background-image: url(../../img/fotos/alhajero.jpeg);
+    width: 25rem;
+    height: 25rem;
+    overflow: hidden;
+    border-style: ridge;
+    border-width: 0,5vh;
+}
+.hero2{
+    background-image: url(../../img/fotos/almohadones.jpg);
+    width: 25rem;
+    height: 25rem;
+    overflow: hidden;
+    border-style: ridge;
+    border-width: 0,5vh;
+}
+.hero__anchor{
+    text-decoration: none;
+}
+.hero__texto{
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    font-size: 2rem;
+    background-color: rgb(29 60 120);
+    text-align: center;
+}
+
+.quienesomos{
+    display: flex;
+    flex-wrap:nowrap;
+}
+.quienesomos__t{
+    font-family: fantasy;
+    font-size: 3.3rem;
+    text-align: right;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    color: rgb(23 15 86)
+}
+.quienesomos__p{
+    margin: 1rem 1rem;
+    padding: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    color: rgb(58, 58, 58);
+}
+.quienesomos__img{
+    width: 30rem;
+    border-radius: 5px;
+    margin: 2rem 2rem 2rem 8rem;
+}
+.productos{
+    display: grid;
+    grid-template-rows: 100px 1fr 1fr;
+    grid-template-columns: 20% auto;
+    grid-template-areas: productos__lista productos_alhajas;
+    padding-bottom: 30rem ;
+}
+.productos__lista{
+ grid: productos__lista;
+ text-align: center;
+line-height: 2rem;
+margin: 2rem;
+}
+.productos__alhajas{
+    grid: productos__alhajas;
+}
+.productos__imagenes{
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem 1rem;
+    padding: 0.3rem;
+}
+.maind{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 0.63rem;
+    background-color: #ccc;
+    overflow: hidden;
+}
+.maind__text{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    margin: 2rem 1rem;
+}
+.maind__label{
+    width: 5rem;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight: bold;
+    margin: 1rem 2.5rem; 
+    display: inline-block;
+    text-align: center;
+}
+.maind__input{
+    width: 23rem;
+    padding: 0.19rem 1rem;
+    border: 1rem solid #f6f6f6;
+    border-radius: 0.19rem;
+    background-color: #f6f6f6;
+    margin: 0.50rem 0rem;
+    display: inline-block;
+    overflow: hidden;
+}
+.maind__input--M{
+    width: 23rem;
+    height: 21rem;
+    padding: 0.19rem 1rem;
+    border: 1rem solid #f6f6f6;
+    border-radius: 0.19rem;
+    background-color: #f6f6f6;
+    margin: 0.50rem 0rem;
+    display: inline-block;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.maind__button{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    border: 1rem solid  rgb(29 60 120);
+    border-radius: 0.31rem;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    background-color:  rgb(29 60 120);
+    cursor: pointer;
+}
+/*MAIN FIN*/
+
+/*FOOTER*/
+.footer{
+    display: inline-block;
+}
+.footer__linea{
+    text-align: left;
+    margin-right: 10rem;
+    margin-top: 5rem;
+    padding: 1rem 0rem 1rem 0rem;
+    border-style: ridge; 
+    border-color: rgba(128, 128, 128, 0.801); 
+    border-width: 0,5rem;
+}
+.footer__linea--rs{
+    margin: 5rem 0rem 0rem 40rem;
+}
+.footer__anchor{
+    color: black;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-size: .5rem;
+    margin: .5rem;
+}
+.footer__img{
+    width: 2rem;
+    height: 2rem;
+}
+/*FOOTER FIN*/
+
+/*ESTILOS MOBILE*/
+@media screen and (max-width: 320px) {
+   .header__list{
+     display: flex;
+     flex-direction: column;  
+   }
+   .header__item{
+    padding: 0.5rem 0.5rem;
+    margin: 0.2rem;
+   }
+   .hero{
+    flex-direction: column;
+    padding: 3rem;
+   }
+   .hero__texto{
+    font-size: 1.6rem;
+   }
+   .hero__anchor{
+    display: flex;
+    flex-direction: column;
+   }
+   .hero1{
+    width: 14rem;
+    height: 15rem;
+   }
+   .hero2{
+    width: 14rem;
+    height: 15rem;
+    margin-top: 2rem;
+   }
+   .footer{
+    margin: 0.5rem;
+   }
+   .footer__linea{
+    display: table-cell;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    margin-bottom: 1.5rem;
+   }
+   .footer__linea--rs{
+    display: contents;
+   }
+   .quienesomos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .quienesomos__t{
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 0%;
+   }
+   .quienesomos__img{
+    width: 10rem;
+    height: 10rem;
+    margin: .5rem;
+   }
+   .quienesomos__p{
+    font-size: 1rem;
+    text-align: justify;
+    padding: 1rem;
+    margin: 0%;
+   }
+   .productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .productos__imagenes{
+    width: 8rem;
+    margin: .9rem;
+   }
+   .maind{
+    width: auto;
+   }
+   .maind__text{
+    font-size: 1.5rem;
+   }
+   .maind__label{
+    width: 0%;
+   }
+   .maind__input{
+    margin: 0%;
+    width: 18rem;
+   }
+   .maind__input--M{
+    width: 18rem;
+   }
+ }
+@media screen and (max-width: 768px){
+    .header__list{
+        display: grid;
+        grid-template-rows: auto;
+        text-align: center;
+        justify-content: center;
+        justify-items: stretch;
+    } 
+    .header__item{
+        padding: 0.5rem 0.5rem;
+        margin: 0.2rem;
+    }
+    .hero{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 5rem;
+        padding: 1rem;
+    }
+    .hero1{
+        width: 20rem;
+        height: 20rem;
+    }
+    .hero2{
+        width: 20rem;
+        height: 20rem;
+    }
+    .footer__linea--rs{
+        margin: 0%;
+    }
+    .quienesomos__t{
+        font-size: 2.9rem;
+    }
+    .quienesomos__img{
+        width: 25rem;
+        height: 25rem;
+        margin: 1rem;
+        margin-top: 4rem;
+        padding: 1rem;
+    }
+    .quienesomos__p{
+        font-size: 1rem;
+        text-align: justify;
+        margin: 0%;
+        padding: 1.5rem;
+    }
+    .productos{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-top: 4rem;
+       } 
+}
+@media screen and (max-width: 1024px){
+    .header__list{
+        display: grid;
+        grid-template-rows: auto;
+        text-align: center;
+        justify-content: center;
+        justify-items: stretch;
+    } 
+    .header__item{
+        padding: 1rem 1rem;
+        margin: 1rem;
+        margin-top: 2rem;
+    }
+    .hero{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 5rem;
+        padding: 1rem;
+    }
+    .hero1{
+        width: 27rem;
+        height: 27rem;
+    }
+    .hero2{
+        width: 27rem;
+        height: 27rem;
+    }
+    .quienesomos__img{
+        width: 25rem;
+        height: 25rem;
+        margin: 1rem;
+        margin-top: 4rem;
+        padding: 1rem;
+    }
+    .quienesomos__t{
+        font-size: 2.5rem;
+    }
+    .quienesomos__p{
+        font-size: 1.3rem;
+        line-height: 2rem;
+        text-align: justify;
+        padding: 1.5rem;
+    }
+    .footer__linea--rs{
+        margin-left: 17rem;
+    }
+}

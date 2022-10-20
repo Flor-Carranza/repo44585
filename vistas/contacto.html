@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link rel="shorcut icon" href="../img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? family=Lato:ital,wght@0,300;0,700;0,900;1,100;1,400;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../estilos/css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="../img/logo.png" class="header" alt="logo de la empresa" class="header__logo">
+        <nav>
+            <ul class="header__list">
+                <li class="header__item"><a class="header__anchor" href="../index.html">INICIO</a></li>
+                <li class="header__item"><a class="header__anchor" href="./quienes_somos.html">QUIENES SOMOS</a></li>
+                <li class="header__item"><a class="header__anchor" href="./alhajas.html">ALHAJAS</a></li>
+                <li class="header__item"><a class="header__anchor" href="./almohadones.html">ALMOHADONES</a></li>
+                <li class="header__item"><a class="header__anchor" href="#">CONTACTO</a></li>
+            </ul> 
+        </nav>
+    </header>
+    <main>
+      <form action="#" method="GET" enctype="text/plain" class="maind">
+            <div>
+                <h2 class="maind__text">- Mantengamosno en contacto -</h2>
+            </div>
+            <div>
+                <label for="name" class="maind__label">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Escribe tu nombre" required class="maind__input">
+            </div>
+            <div>
+                <label for="email" class="maind__label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" required class="maind__input">
+            </div>
+            <div>
+                <label for="telefono" class="maind__label">Telefono</label>
+                <input type="tel" name="Telefono" id="telefono" placeholder="Código de área sin 0 y telefno sin 15" required class="maind__input">
+            </div>
+            <div>
+                <label for="asunto" class="maind__label">Asunto</label>
+                <input type="text" name="asunto" id="asunto" placeholder="Asunto" required class="maind__input">
+            </div>
+            <div>
+                <label for="mensaje" class="maind__label">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" for="mesaje" placeholder="Escribe tu consulta" maxlength="300" class="maind__input--M"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Enviar" class="maind__button">
+            </div>
+        </form>  
+    </main>
+    <footer>
+        <section>
+            <div class="footer">
+                <nav class="footer__linea">
+                    <ul>
+                        <li><a class="footer__anchor" href="../index.html">INICIO</a></li>
+                        <li><a class="footer__anchor" href="./quienes_somos.html">QUIENES SOMOS</a></li>
+                        <li><a class="footer__anchor" href="./vistas/alhajas.html">ALHAJAS</a></li>
+                        <li><a class="footer__anchor" href="./vistas/almohadones.html">ALMOHADONES</a></li>
+                        <li><a class="footer__anchor" href="#">CONTACTO</a></li>
+                    </ul>  
+                </nav>   
+            </div>
+            <div class="footer">
+                <ul class="footer__linea">
+                    <h3 class="footer__anchor">MEDIOS DE PAGO:<h3>
+                        <img src="../img/medios_de_pago/visa.png" alt="#"class="footer__img">
+                        <img src="../img/medios_de_pago/tarjeta_naranja.jpg" alt="#"class="footer__img">
+                        <img src="../img/medios_de_pago/mastercard.png" alt="#"class="footer__img">
+                        <img src="../img/medios_de_pago/Mercadopago.jpg" alt="#"class="footer__img">
+                        <img src="../img/medios_de_pago/efectivo.jpg" alt="#"class="footer__img">
+                </ul>
+            </div>
+            <div class="footer">
+                <ul class="footer__linea--rs">
+                    <img src="../img/redes_sociales/whatsapp.png"  alt="#" class="footer__img">
+                    <img src="../img/redes_sociales/instagram.png" alt="#" class="footer__img">
+                    <img src="../img/redes_sociales/facebook.png" alt="#" class="footer__img">  
+                </ul>
+            </div> 
+        </section>
+    </footer> 
+</body>
+</html>
