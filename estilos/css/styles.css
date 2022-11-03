@@ -93,7 +93,7 @@
 .quienesomos__img{
     width: 30rem;
     border-radius: 5px;
-    margin-left: 1.5rem;
+    margin: 8rem 1.5rem 0rem;
 }
 .productos{
     display: grid;
