@@ -1,0 +1,61 @@
+.maind{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 0.63rem;
+    background-color: #ccc;
+    overflow: hidden;
+    &__text{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    margin: 2rem 1rem;
+}
+    &__label{
+    width: 5rem;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight: bold;
+    margin: 1rem 2.5rem; 
+    display: inline-block;
+    text-align: center;
+}
+    &__input{
+    width: 23rem;
+    padding: 0.19rem 1rem;
+    border: 1rem solid #f6f6f6;
+    border-radius: 0.19rem;
+    background-color: #f6f6f6;
+    margin: 0.50rem 0rem;
+    display: inline-block;
+    overflow: hidden;
+}
+    &__input--M{
+    width: 23rem;
+    height: 21rem;
+    padding: 0.19rem 1rem;
+    border: 1rem solid #f6f6f6;
+    border-radius: 0.19rem;
+    background-color: #f6f6f6;
+    margin: 0.50rem 0rem;
+    display: inline-block;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+    &__button{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    border: 1rem solid $color-pyme;
+    border-radius: 0.31rem;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    background-color:$color-pyme;
+    cursor:pointer;
+}
+}

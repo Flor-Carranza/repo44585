@@ -1,0 +1,23 @@
+.quienesomos{
+    display: flex;
+    margin-top: 3rem;
+    &__t{
+    font-family: cursive;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(23 15 86);
+}
+    &__p{
+    margin: 0rem 1rem;
+    padding: 0.5rem;
+    font-family: cursive;
+    font-size: 1.3rem;
+    text-align: justify;
+    color: rgb(58, 58, 58);
+}
+    &__img{
+    width: 30rem;
+    border-radius: 5px;
+    margin-left: 1.5rem;
+}
+}

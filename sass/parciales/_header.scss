@@ -1,0 +1,26 @@
+.header{
+    width: 100%;
+    height: 50vh; 
+    &__list{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+    &__item{
+    display: inline-block;
+    border-radius: 7%;
+    padding: 1rem 1rem;
+    margin: 3rem;
+    overflow: hidden;
+    background-color: $color-pyme;
+}
+    &__anchor{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: $fuente-principal;
+    font-weight: bold;
+}
+}   
