@@ -217,19 +217,6 @@
     border-radius: 5px;
     margin: 8rem 1.5rem 0rem; }
 
-.productos {
-  display: grid;
-  grid-template-rows: 100px 1fr 1fr;
-  grid-template-columns: 20% auto;
-  grid-template-areas: productos__lista productos_alhajas;
-  padding-bottom: 30rem; }
-  .productos__lista {
-    grid: productos__lista;
-    text-align: center;
-    line-height: 2rem;
-    margin: 2rem; }
-  .productos__alhajas {
-    grid: productos__alhajas; }
   .productos__imagenes {
     width: 10rem;
     height: 10rem;

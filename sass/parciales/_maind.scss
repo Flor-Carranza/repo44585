@@ -9,7 +9,7 @@
     overflow: hidden;
     &__text{
     font-size: 2rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: $fuente-secundaria;
     font-style: italic;
     text-align: center;
     margin: 2rem 1rem;
@@ -17,7 +17,7 @@
     &__label{
     width: 5rem;
     display: inline-block;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: $fuente-secundaria;
     font-size:large;
     font-weight: bold;
     margin: 1rem 2.5rem; 

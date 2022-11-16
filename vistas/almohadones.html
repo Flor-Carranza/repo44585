@@ -20,29 +20,48 @@
                 <li class="header__item"><a class="header__anchor" href="../index.html">INICIO</a></li>
                 <li class="header__item"><a class="header__anchor" href="./quienes_somos.html">QUIENES SOMOS</a></li>
                 <li class="header__item"><a class="header__anchor" href="./alhajas.html"">ALHAJAS</a></li>
-                <li class="header__item"><a class="header__anchor" href="#">ALMOHADONES</a></li>
+                <li class="header__item"><a class="header__anchor" href="#">DECORACION</a></li>
                 <li class="header__item"><a class="header__anchor" href="./contacto.html">CONTACTO</a></li>
             </ul> 
         </nav>
     </header>
     <main>
-        <section class="productos">
-            <div class="productos__lista">
-                <ul>
-                    <h3>CATEGORIA</h3>
-                    <li>Almohadones</li>
-                    <li>Caminos</li>
-                    <li>Pie de cama</li>
-                </ul>
-            </div>
-            <div>
-                <img src="../img/Tejidos/azul.jpeg" alt="" class="productos__imagenes">
-                <img src="../img/Tejidos/celeste.jpeg" alt="" class="productos__imagenes">
-                <img src="../img/Tejidos/nat.jpeg" alt="" class="productos__imagenes">
-                <img src="../img/Tejidos/rosa.jpeg" alt="" class="productos__imagenes">
-                <img src="../img/Tejidos/tostado.jpeg" alt="" class="productos__imagenes">
-                <img src="../img/Tejidos/camino.jpeg" alt="" class="productos__imagenes">
-            </div>
+        <section class="container">
+            <div class="row justify-content-around">
+                <div class="col-md-3">
+                    <div class="productos">
+                        <h3>CATEGORIAS</h3>
+                    </div>
+                    <div class="productos__items">
+                        <input type="radio" name="filtro" id="Todo" checked>
+                        <label for="Todo">Todo</label>
+                    </div>
+                    <div class="productos__items">
+                        <input type="radio" name="filtro" id="Almohadones">
+                        <label for="Almohadones"> Almohadones</label>
+                    </div>
+                    <div class="productos__items">
+                        <input type="radio" name="filtro" id="Caminos">
+                        <label for="Caminos"> Caminos</label>   
+                    </div>                 
+                </div>                                                     
+                <div class="col-md-9">
+                    <img src="../img/Tejidos/almohadon.jpeg" alt="" class="productos__imagenes">
+                    <img src="../img/Tejidos/almohadon1.jpeg" alt="" class="productos__imagenes">
+                    <img src="../img/Tejidos/almohadon2.jpeg" alt="" class="productos__imagenes">
+                    <img src="../img/Tejidos/almohadon3.jpeg" alt="" class="productos__imagenes">
+                    <img src="../img/Tejidos/almohadon4.jpeg" alt="" class="productos__imagenes">
+                    <img src="../img/Tejidos/camino.jpeg" alt="" class="productos__imagenes">
+                    <img src="../img/Tejidos/almohadon5.jpeg" alt="" class="productos__imagenes">
+                    <img src="../img/Tejidos/almohadon6.jpeg" alt="" class="productos__imagenes">
+                    <img src="../img/Tejidos/almohadon7.jpeg" alt="" class="productos__imagenes">
+                    <img src="../img/Tejidos/almohadon8.jpeg" alt="" class="productos__imagenes">
+                    <img src="../img/Tejidos/almohadon9.jpeg" alt="" class="productos__imagenes">
+                    <img src="../img/Tejidos/almohadon10.jpeg" alt="" class="productos__imagenes">
+                    <img src="../img/Tejidos/almohadon11.jpeg" alt="" class="productos__imagenes">
+                    <img src="../img/Tejidos/almohadon12.jpeg" alt="" class="productos__imagenes">
+                </div>
+            </div>    
         </section>    
     </main>
     <footer>
@@ -54,7 +73,7 @@
                             <li><a class="footer__anchor" href="../index.html">INICIO</a></li>
                             <li><a class="footer__anchor" href="../vistas/quienes_somos.html">QUIENES SOMOS</a></li>
                             <li><a class="footer__anchor" href="../vistas/alhajas.html">ALHAJAS</a></li>
-                            <li><a class="footer__anchor" href="#">ALMOHADONES</a></li>
+                            <li><a class="footer__anchor" href="#">DECORACION</a></li>
                             <li><a class="footer__anchor" href="../vistas/contacto.html">CONTACTO</a></li>
                         </ul>  
                     </nav>   
@@ -72,10 +91,13 @@
                 <div class="col-md-3">
                     <ul class="footer__img1">
                         <div>
-                            <img src="../img/redes_sociales/instagram.png" alt="#"class="footer__img2"> 
+                            <a href="https://wa.me/3515220211" target="_blank"><img src="../img/redes_sociales/whatsapp.png" alt="#"class="footer__img2"></a>
                         </div>
                         <div>
-                            <img src="../img/redes_sociales/facebook.png" alt="#"class="footer__img2">
+                            <a href="https://www.instagram.com/cabasalhajas/?hl=es" target="_blank"><img src="../img/redes_sociales/instagram.png" alt="#"class="footer__img2"></a> 
+                        </div>
+                        <div>
+                            <a href="https://www.facebook.com/cabasalhajas" target="_blank"><img src="../img/redes_sociales/facebook.png" alt="#"class="footer__img2"></a>
                         </div>
                     </ul>
                 </div>

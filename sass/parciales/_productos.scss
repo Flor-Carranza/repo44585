@@ -1,22 +1,23 @@
 .productos{
-    display: grid;
-    grid-template-rows: 100px 1fr 1fr;
-    grid-template-columns: 20% auto;
-    grid-template-areas: productos__lista productos_alhajas;
-    padding-bottom: 30rem ;
-    &__lista{
-    grid: productos__lista;
+    background-color: rgb(29 60 120 / 11%);
+    border-radius: 3%;
     text-align: center;
-    line-height: 2rem;
-    margin: 2rem;
+    color: $color-fuente;
+    font-family:$fuente-principal;
+&__items{
+    text-align: center;
+    font-family: $fuente-secundaria;
+    font-size: 1.5rem;
+    color: $color-fuente;
 }
-    &__alhajas{
-    grid: productos__alhajas;
-}
-    &__imagenes{
+&__imagenes{
     width: 10rem;
     height: 10rem;
     margin: 1rem 1rem;
     padding: 0.3rem;
+    cursor: pointer;
+}
+&__imagenes:hover{
+    transform: scale(2.5);
 }
 }

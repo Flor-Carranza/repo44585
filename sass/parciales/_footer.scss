@@ -5,16 +5,16 @@
 .footer{
    margin-top: 10rem;
    font-size: 3rem;
-   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-family: $fuente-secundaria
    text-align: center;
    color:$color-pyme;
    &__list{
     list-style-type:none;
 }
     &__anchor{
-    color: rgb(119, 112, 112);
+    color: $color-fuente;
     text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: $fuente-secundaria
     font-size: 1.5rem;
 }
     &__img{
