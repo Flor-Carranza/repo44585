@@ -32,7 +32,8 @@
     }
     }
     .footer{
-     margin: 0.5rem;
+    margin: 0.5rem;
+    font-size: xx-large;
      &__linea{
      display: table-cell;
      padding: 0.5rem 0rem 0.5rem 0rem;
@@ -48,21 +49,22 @@
      align-items: center;
      &__t{
         font-size: 1.4rem;
-        text-align: center;
-        padding: 1rem;
-        margin: 0%;
        }
     &__img{
-        width: 10rem;
-        height: 10rem;
-        margin: .5rem;
+        width: 18rem;
+        height: 18rem;
+        margin: 1rem;
        }
     &__p{
         font-size: 1rem;
         text-align: justify;
         padding: 1rem;
         margin: 0%;
+        margin-bottom: 1rem;
        }
+    }
+    .container{
+        margin-top: 2rem;
     }
     .productos{
      display: flex;
@@ -107,15 +109,19 @@
          display: flex;
          justify-content: space-around;
          margin-bottom: 5rem;
-         padding: 1rem;
     &1{
          width: 20rem;
          height: 20rem;
+         margin: 1rem;
      }
      &2{
          width: 20rem;
          height: 20rem;
+         margin: 1rem;
      }  
+     }
+     .footer__img1{
+        display: flex;
      }
      .footer__linea--rs{
          margin: 0%;
@@ -123,8 +129,8 @@
      .quienesomos__t{
          font-size: 2.9rem;
      &__img{
-         width: 25rem;
-         height: 25rem;
+         width: 23rem;
+         height: 23rem;
          margin: 1rem;
          margin-top: 4rem;
          padding: 1rem;
@@ -141,6 +147,9 @@
          flex-direction: row;
          align-items: flex-start;
          margin-top: 4rem;
+    &__items{
+        font-size: 1rem;
+    }     
     } 
     }
 
@@ -187,6 +196,10 @@
          padding: 1.5rem;
      }    
      }
+     .footer__img1 {
+        display: flex;
+        margin-left: 5rem;
+    }
      .footer__linea--rs{
          margin-left: 17rem;
      }

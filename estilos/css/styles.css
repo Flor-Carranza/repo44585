@@ -253,6 +253,7 @@
    }
    .footer{
     margin: 0.5rem;
+    font-size: xx-large;
    }
    .footer__linea{
     display: table-cell;
@@ -269,21 +270,22 @@
    }
    .quienesomos__t{
     font-size: 1.4rem;
-    text-align: center;
-    padding: 1rem;
-    margin: 0%;
    }
    .quienesomos__img{
-    width: 10rem;
-    height: 10rem;
-    margin: .5rem;
+    width: 18rem;
+    height: 18rem;
+    margin: 1rem;
    }
    .quienesomos__p{
     font-size: 1rem;
     text-align: justify;
     padding: 1rem;
     margin: 0%;
+    margin-bottom: 1rem;
    }
+   .container{
+    margin-top: 2rem;
+}
    .productos{
     display: flex;
     flex-direction: column;
@@ -326,15 +328,19 @@
         display: flex;
         justify-content: space-around;
         margin-bottom: 5rem;
-        padding: 1rem;
     }
     .hero1{
         width: 20rem;
         height: 20rem;
+        margin: 1rem;
     }
     .hero2{
         width: 20rem;
         height: 20rem;
+        margin: 1rem;
+    }
+    .footer__img1{
+        display: flex;
     }
     .footer__linea--rs{
         margin: 0%;
@@ -343,8 +349,8 @@
         font-size: 2.9rem;
     }
     .quienesomos__img{
-        width: 25rem;
-        height: 25rem;
+        width: 23rem;
+        height: 23rem;
         margin: 1rem;
         margin-top: 4rem;
         padding: 1rem;
@@ -360,7 +366,10 @@
         flex-direction: row;
         align-items: flex-start;
         margin-top: 4rem;
-       } 
+    } 
+    .productos__items{
+        font-size: 1rem;
+    }
 }
 @media screen and (max-width: 1024px){
     .header__list{
@@ -404,6 +413,10 @@
         line-height: 2rem;
         text-align: justify;
         padding: 1.5rem;
+    }
+    .footer__img1 {
+        display: flex;
+        margin-left: 5rem;
     }
     .footer__linea--rs{
         margin-left: 17rem;
